@@ -1,8 +1,8 @@
 # BioinformaticsFinal
-This is the code, data, and findings (of which I am the sole author) for the UW Tacoma Bioinformatics winter 2019 final project. Code is an extension of work done during the NCBI February 2019 Hackathon, and the original contributions can be found at https://github.com/NCBI-Hackathons/ConsensusML. 
+This is the code, data, and findings (of which I am the sole author) for the UW Tacoma Bioinformatics Winter 2019 final project. Code is an extension of work done during the NCBI February 2019 Hackathon, and the original contributions can be found at https://github.com/NCBI-Hackathons/ConsensusML. 
 
 ## Folders
-The Clinical_Data and Manifest_Data folders contain data needed for experiments.
+The Clinical_Data and Manifest_Data folders contain data needed for experiments and scripts.
 
 The scripts folder contains the 3 Python script files needed for experiments. The folder also contains some sample output from recent experiments in the output log text file and important_genes.csv file. Additionally, the visualizations Jupyter notebook contains some interesting visualizations of the feature selection findings.
 
