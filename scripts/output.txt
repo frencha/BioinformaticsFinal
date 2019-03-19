@@ -1,0 +1,293 @@
+
+
+
+---------------------------------------------
+20190313-225552
+High Variance
+Length of test data: 37
+------------------
+Gradient Boost Log Loss 0.36210740308746076
+Random Forest Log Loss 0.3262005795045274
+XGBoost Log Loss 0.22184269636164647
+------------------
+SVM Log Loss 0.237154640606127
+KNN Log Loss 0.17674480353701816
+ELM Log Loss 0.3065331491224842
+AdaBoost Log Loss 0.3562748552965289
+LogitBoost Log Loss 2.875555546104825
+
+
+
+---------------------------------------------
+20190313-225857
+High Variance
+Total Ensemble Log Loss 0.24165646333258886
+New Ensemble Log Loss 0.20764888170828355
+New Ensemble without LogitBoost Log Loss 0.2242076950690501
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Log Loss 0.28771180437159816
+
+Total Ensemble Mean Cross Fold Accuracy 0.927235083756823
+New Ensemble Mean Cross Fold Accuracy 0.927235083756823
+New Ensemble without LogitBoost Cross Mean Fold Accuracy 0.927630340673819
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Mean Accuracy 0.9181441746659138
+Average size of fold: 22.0
+
+
+
+---------------------------------------------
+20190313-225910
+Low Variance
+Length of test data: 37
+------------------
+Gradient Boost Log Loss 0.49256451159202913
+Random Forest Log Loss 0.48223471620602953
+XGBoost Log Loss 0.3429010650394736
+------------------
+SVM Log Loss 0.3218346974865195
+KNN Log Loss 2.2345923350087893
+ELM Log Loss 0.7168776442432533
+AdaBoost Log Loss 0.46655050000216153
+LogitBoost Log Loss 3.4019620401744772
+
+
+
+---------------------------------------------
+20190313-230152
+Low Variance
+Total Ensemble Log Loss 0.4040130155610944
+New Ensemble Log Loss 0.39847496319229175
+New Ensemble without LogitBoost Log Loss 0.4487556364808663
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Log Loss 0.4236865692228745
+
+Total Ensemble Mean Cross Fold Accuracy 0.881347637869377
+New Ensemble Mean Cross Fold Accuracy 0.8904385469602861
+New Ensemble without LogitBoost Cross Mean Fold Accuracy 0.8287784679089027
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Mean Accuracy 0.8540372670807453
+Average size of fold: 22.0
+
+
+
+---------------------------------------------
+20190313-230208
+Random Gene Selection
+Length of test data: 37
+------------------
+Gradient Boost Log Loss 0.46691110819104664
+Random Forest Log Loss 0.40696082598484606
+XGBoost Log Loss 0.31912136405102304
+------------------
+SVM Log Loss 0.282712797365648
+KNN Log Loss 1.0914915390600108
+ELM Log Loss 0.3749329492929271
+AdaBoost Log Loss 0.4545847800264541
+LogitBoost Log Loss 2.4730145143575997
+
+
+
+---------------------------------------------
+20190313-230531
+Random Gene Selection
+Total Ensemble Log Loss 0.3492047186951543
+New Ensemble Log Loss 0.34508333177461226
+New Ensemble without LogitBoost Log Loss 0.37860443521388215
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Log Loss 0.3659138237495119
+
+Total Ensemble Mean Cross Fold Accuracy 0.9354978354978355
+New Ensemble Mean Cross Fold Accuracy 0.9354978354978355
+New Ensemble without LogitBoost Cross Mean Fold Accuracy 0.9454169019386411
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Mean Accuracy 0.9359307359307361
+Average size of fold: 22.0
+
+
+
+---------------------------------------------
+20190313-230556
+Performance using lasso genes
+Length of test data: 37
+------------------
+Gradient Boost Log Loss 0.42970407069922745
+Random Forest Log Loss 0.395110799084446
+XGBoost Log Loss 0.3857097961008549
+------------------
+SVM Log Loss 0.32957336900162065
+KNN Log Loss 1.1024500554953667
+ELM Log Loss 0.34925542364287787
+AdaBoost Log Loss 0.5135819064415247
+LogitBoost Log Loss 3.6139244773721635
+
+
+
+---------------------------------------------
+20190313-231108
+Performance using lasso genes
+Total Ensemble Log Loss 0.298328075947701
+New Ensemble Log Loss 0.297900917698024
+New Ensemble without LogitBoost Log Loss 0.24816193376965284
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Log Loss 0.3863479367976911
+
+Total Ensemble Mean Cross Fold Accuracy 0.8908714473931866
+New Ensemble Mean Cross Fold Accuracy 0.8817805383022774
+New Ensemble without LogitBoost Cross Mean Fold Accuracy 0.8912667043101825
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Mean Accuracy 0.8635610766045548
+Average size of fold: 22.0
+
+
+
+---------------------------------------------
+20190313-231327
+
+Length of test data: 37
+------------------
+Gradient Boost Log Loss 0.4407397864037863
+Random Forest Log Loss 0.39492259532890717
+XGBoost Log Loss 0.25292958437490304
+------------------
+SVM Log Loss 0.23982105942250848
+KNN Log Loss 2.9506772341240532
+ELM Log Loss 0.7092812693477059
+AdaBoost Log Loss 0.37440531340467315
+LogitBoost Log Loss 2.297836103267564
+
+
+
+---------------------------------------------
+20190313-235044
+Performance using all features
+Total Ensemble Log Loss 0.32811791076997265
+New Ensemble Log Loss 0.32067710933589555
+New Ensemble without LogitBoost Log Loss 0.368036082210282
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Log Loss 0.3417890183623744
+
+Total Ensemble Mean Cross Fold Accuracy 0.9003576134010917
+New Ensemble Mean Cross Fold Accuracy 0.9003576134010917
+New Ensemble without LogitBoost Cross Mean Fold Accuracy 0.9086203651421043
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Mean Accuracy 0.9181441746659138
+Average size of fold: 22.0
+
+
+
+---------------------------------------------
+20190313-235242
+Performance using converged Lasso genes
+Total Ensemble Log Loss 0.2893248461393598
+New Ensemble Log Loss 0.2699179946861567
+New Ensemble without LogitBoost Log Loss 0.2863726316866776
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Log Loss 0.33830955504481686
+
+Total Ensemble Mean Cross Fold Accuracy 0.9077922077922078
+New Ensemble Mean Cross Fold Accuracy 0.8896103896103897
+New Ensemble without LogitBoost Cross Mean Fold Accuracy 0.8896103896103897
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Mean Accuracy 0.8896103896103895
+Average size of fold: 22.0
+
+
+
+---------------------------------------------
+20190313-235331
+Performance using XGBoost genes
+Total Ensemble Log Loss 0.23996111415534044
+New Ensemble Log Loss 0.21245721199973322
+New Ensemble without LogitBoost Log Loss 0.2089180647324023
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Log Loss 0.3052662069562773
+
+Total Ensemble Mean Cross Fold Accuracy 0.9632034632034632
+New Ensemble Mean Cross Fold Accuracy 0.9632034632034632
+New Ensemble without LogitBoost Cross Mean Fold Accuracy 0.9632034632034632
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Mean Accuracy 0.9541125541125541
+Average size of fold: 22.0
+
+
+
+---------------------------------------------
+20190313-235548
+Performance using Random Forest genes
+Total Ensemble Log Loss 0.22143542175982023
+New Ensemble Log Loss 0.18596473150704035
+New Ensemble without LogitBoost Log Loss 0.20206138097653292
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Log Loss 0.28699582576090665
+
+Total Ensemble Mean Cross Fold Accuracy 0.945021645021645
+New Ensemble Mean Cross Fold Accuracy 0.945021645021645
+New Ensemble without LogitBoost Cross Mean Fold Accuracy 0.9181065311500095
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Mean Accuracy 0.927235083756823
+Average size of fold: 22.0
+
+
+
+---------------------------------------------
+20190313-235606
+Performance using AdaBoost genes
+Total Ensemble Log Loss 0.25652274007144704
+New Ensemble Log Loss 0.25741340978886784
+New Ensemble without LogitBoost Log Loss 0.26086348477560134
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Log Loss 0.26953203569972034
+
+Total Ensemble Mean Cross Fold Accuracy 0.9632034632034632
+New Ensemble Mean Cross Fold Accuracy 0.9632034632034632
+New Ensemble without LogitBoost Cross Mean Fold Accuracy 0.9536796536796537
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Mean Accuracy 0.9632034632034632
+Average size of fold: 22.0
+
+
+
+---------------------------------------------
+20190313-235625
+Performance using intersection of converged Lasso and XGBoost genes
+Total Ensemble Log Loss 0.35027059470676264
+New Ensemble Log Loss 0.34525048006861375
+New Ensemble without LogitBoost Log Loss 0.3683635163927202
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Log Loss 0.3675970990313008
+
+Total Ensemble Mean Cross Fold Accuracy 0.8982683982683983
+New Ensemble Mean Cross Fold Accuracy 0.88008658008658
+New Ensemble without LogitBoost Cross Mean Fold Accuracy 0.8713909279126671
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Mean Accuracy 0.8986636551853943
+Average size of fold: 22.0
+
+
+
+---------------------------------------------
+20190313-235642
+Performance using intersection of converged Lasso and AdaBoost genes
+Total Ensemble Log Loss 0.3993541558337047
+New Ensemble Log Loss 0.38880953148717723
+New Ensemble without LogitBoost Log Loss 0.40086176965910375
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Log Loss 0.4310457474530757
+
+Total Ensemble Mean Cross Fold Accuracy 0.8705627705627705
+New Ensemble Mean Cross Fold Accuracy 0.8614718614718615
+New Ensemble without LogitBoost Cross Mean Fold Accuracy 0.8705627705627705
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Mean Accuracy 0.8614718614718615
+Average size of fold: 22.0
+
+
+
+---------------------------------------------
+20190313-235659
+Performance using intersection of XGBoost and AdaBoost genes
+Total Ensemble Log Loss 0.25678333131434783
+New Ensemble Log Loss 0.2610325935765559
+New Ensemble without LogitBoost Log Loss 0.26739098179284604
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Log Loss 0.2620870461368196
+
+Total Ensemble Mean Cross Fold Accuracy 0.9632034632034632
+New Ensemble Mean Cross Fold Accuracy 0.9632034632034632
+New Ensemble without LogitBoost Cross Mean Fold Accuracy 0.9445887445887446
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Mean Accuracy 0.9632034632034632
+Average size of fold: 22.0
+
+
+
+---------------------------------------------
+20190313-235715
+Performance using intersection of converged Lasso, XGBoost, and AdaBoost genes
+Total Ensemble Log Loss 0.41245438011269425
+New Ensemble Log Loss 0.40498832614400876
+New Ensemble without LogitBoost Log Loss 0.4091359582261855
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Log Loss 0.44364454946480214
+
+Total Ensemble Mean Cross Fold Accuracy 0.8705627705627705
+New Ensemble Mean Cross Fold Accuracy 0.8705627705627705
+New Ensemble without LogitBoost Cross Mean Fold Accuracy 0.8705627705627705
+Original Ensemble (Gradient Boost, Random Forest, and XGBoost) Mean Accuracy 0.8614718614718615
+Average size of fold: 22.0
